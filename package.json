@@ -1,0 +1,11 @@
+{
+  "name": "timezone-mcp",
+  "version": "1.0.0",
+  "description": "MCP server that gives AI assistants the real current date and time in your own timezone.",
+  "type": "module",
+  "bin": { "timezone-mcp": "src/stdio.js" },
+  "files": ["src"],
+  "license": "MIT",
+  "engines": { "node": ">=18" },
+  "keywords": ["mcp", "timezone", "time", "claude"]
+}
