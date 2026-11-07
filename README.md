@@ -20,7 +20,7 @@ Claude Code: `claude mcp add timezone -- npx -y github:SijalH/timezone-mcp`
 
 ## Hosted (claude.ai web and phone)
 
-Open the hosted setup page, confirm your auto-detected timezone, copy your personal
+Open **https://timezone-mcp.vercel.app**, confirm your auto-detected timezone, copy your personal
 URL (`https://<host>/mcp?tz=Your/Zone`), and add it under Settings → Connectors →
 Add custom connector. The server stores nothing; your timezone lives in your URL.
 To change it, generate a new URL (one-off timezones can still be asked in chat).
