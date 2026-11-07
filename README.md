@@ -27,6 +27,10 @@ To change it, generate a new URL (one-off timezones can still be asked in chat).
 
 ## Self-hosting the remote server
 
+**Vercel** (sign in with GitHub): import this repo at vercel.com/new and deploy. No settings needed.
+
+**Cloudflare Workers:**
+
 ```
 npm i -g wrangler
 wrangler login
